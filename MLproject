@@ -1,0 +1,5 @@
+name: "Bank churn prediction"
+conda_env: conda.yaml
+entry_points:
+    Training:
+        command: "python demo1.py"
